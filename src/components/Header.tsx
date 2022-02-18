@@ -1,11 +1,5 @@
 import { ChevronLeftIcon } from '@chakra-ui/icons'
-import {
-  Box,
-  Flex,
-  IconButton,
-  Image,
-  Link as ChakraLink,
-} from '@chakra-ui/react'
+import { Box, Flex, Image, Link as ChakraLink } from '@chakra-ui/react'
 import Link from 'next/link'
 
 interface HeaderPros {
@@ -23,15 +17,14 @@ export function Header({ isHome }: HeaderPros) {
         {!isHome && (
           <Link href="/">
             <ChakraLink position="relative">
-              <IconButton
-                aria-label="Return to Home"
-                variant="unstyled"
+              <ChevronLeftIcon
+                as="button"
                 display="flex"
                 alignItems="center"
                 position="absolute"
                 top="-5"
-                icon={<ChevronLeftIcon fontSize={['16px', '16px', '32px']} />}
-              ></IconButton>
+                fontSize={['16px', '16px', '32px']}
+              />
             </ChakraLink>
           </Link>
         )}
