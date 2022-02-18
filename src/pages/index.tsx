@@ -1,36 +1,65 @@
 import type { NextPage } from 'next'
-import { Box, Flex, Heading, Image, Text } from '@chakra-ui/react'
+import {
+  Box,
+  Flex,
+  Heading,
+  Image,
+  Stack,
+  Text,
+  useBreakpointValue,
+  useMediaQuery,
+} from '@chakra-ui/react'
 import { Header } from '../components/Header'
 
 const Home: NextPage = () => {
+  useMediaQuery
+  const isSmall = useBreakpointValue({ base: true, lg: false })
+  // in order to make useBreakpointValue works with Next.js,
+  // I've had to downgrade chakra-ui to 1.7.3
+  // https://github.com/chakra-ui/chakra-ui/issues/5506
+
   return (
     <>
       <Header isHome={true} />
       <Box
-        height="335px"
+        height={['163px', '163px', '335px']}
         backgroundImage="url('/images/home.jpg')"
         backgroundPosition="50% 25%"
         backgroundRepeat="no-repeat"
         backgroundSize="cover"
       >
-        <Flex align="center" justify="space-around">
+        <Flex align="center" justify="space-around" height="100%">
           <Box>
-            <Heading fontWeight={500} fontSize="36px" color="gray.50" w="27rem">
-              5 Continentes, <Text>infinitas possibilidades.</Text>
-            </Heading>
-            <Text fontWeight={400} fontSize="20px" color="gray.100" w="33rem">
-              Chegou a hora de tirar do papel a viagem que você sempre sonhou.{' '}
-            </Text>
+            <Stack spacing={['4', '4', '6']}>
+              <Heading
+                fontWeight={500}
+                fontSize={['20px', '20px', '36px']}
+                color="gray.50"
+                w={['15rem', '15rem', '27rem']}
+              >
+                5 Continentes, <Text>infinitas possibilidades.</Text>
+              </Heading>
+              <Text
+                fontWeight={400}
+                fontSize={['14px', '14px', '20px']}
+                color="gray.100"
+                w={['21rem', '21rem', '33rem']}
+              >
+                Chegou a hora de tirar do papel a viagem que você sempre sonhou.{' '}
+              </Text>
+            </Stack>
           </Box>
-          <Box>
-            <Image
-              position="relative"
-              top="70px"
-              src="/images/Airplane.svg"
-              transform="rotate(3deg)"
-              alt="Airplane"
-            />
-          </Box>
+          {!isSmall && (
+            <Box>
+              <Image
+                position="relative"
+                top="50px"
+                src="/images/Airplane.svg"
+                transform="rotate(3deg)"
+                alt="Airplane"
+              />
+            </Box>
+          )}
         </Flex>
       </Box>
       <Text fontWeight={400}>Hello world</Text>
