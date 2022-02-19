@@ -1,15 +1,4 @@
-import { InfoOutlineIcon } from '@chakra-ui/icons'
-import {
-  Box,
-  Flex,
-  HStack,
-  SimpleGrid,
-  Stack,
-  Text,
-  Tooltip,
-  useBreakpointValue,
-  VStack,
-} from '@chakra-ui/react'
+import { Box, Flex, HStack, SimpleGrid, Text } from '@chakra-ui/react'
 import { GetStaticProps } from 'next'
 import { CityCard } from '../components/CityCard'
 import { ContinentData } from '../components/ContinentData'
@@ -34,8 +23,6 @@ interface ContinentProps {
 }
 
 export default function Continent({ data }: ContinentProps) {
-  const isSmall = useBreakpointValue({ base: true, lg: false })
-
   return (
     <>
       <Header isHome={false} />
