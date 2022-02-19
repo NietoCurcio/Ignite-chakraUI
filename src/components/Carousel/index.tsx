@@ -5,7 +5,6 @@ import 'swiper/css'
 import 'swiper/css/pagination'
 import 'swiper/css/navigation'
 
-import styles from './styles.module.css'
 import { CarouselItem } from './CarouselItem'
 
 interface ContinentsObject {
@@ -31,7 +30,6 @@ export function Carousel({ carouselData }: CarouselProps) {
       }}
       navigation={true}
       modules={[Keyboard, Pagination, Navigation]}
-      className={styles.swiper}
     >
       {carouselData.map((item: ContinentsObject, idx: number) => {
         return (

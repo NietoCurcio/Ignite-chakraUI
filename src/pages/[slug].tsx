@@ -45,7 +45,7 @@ export default function Continent({ data }: ContinentProps) {
       />
 
       <Flex
-        direction={['column', 'column', 'column', 'row']}
+        direction={{ base: 'column', xl: 'row' }}
         justify="space-around"
         align="center"
         mx="auto"

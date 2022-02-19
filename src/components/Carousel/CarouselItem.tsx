@@ -14,32 +14,46 @@ export function CarouselItem({ img, title, subtitle, to }: CarouselItemProps) {
       <Link href={to}>
         <Box as="a" h="inherit" w="inherit">
           <Box
-            as="button"
             backgroundImage={`url(${img})`}
             width="inherit"
             h="inherit"
             backgroundRepeat="no-repeat"
             backgroundSize="cover"
+            position="relative"
+            zIndex="0"
           >
-            <VStack
-              color="#fff"
-              alignItems="center"
-              justify="center"
+            <Box
+              position="absolute"
+              top="0"
+              left="0"
+              w="100%"
               h="100%"
-              fontWeight={700}
+              zIndex="0"
+              bg="rgba(51, 51, 51, 0.35)"
+              cursor="pointer"
             >
-              <Heading
-                my="auto"
-                textAlign="center"
-                fontSize="36px"
-                color="gray.50"
+              <VStack
+                color="#fff"
+                alignItems="center"
+                justify="center"
+                h="100%"
+                fontWeight={700}
+                position="relative"
+                zIndex="1"
               >
-                {title}
-                <Text fontSize="24px" color="gray.100">
-                  {subtitle}
-                </Text>
-              </Heading>
-            </VStack>
+                <Heading
+                  my="auto"
+                  textAlign="center"
+                  fontSize={['24px', '24px', '36px']}
+                  color="gray.50"
+                >
+                  {title}
+                  <Text fontSize={['14px', '14px', '24px']} color="gray.100">
+                    {subtitle}
+                  </Text>
+                </Heading>
+              </VStack>
+            </Box>
           </Box>
         </Box>
       </Link>

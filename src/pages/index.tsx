@@ -42,7 +42,7 @@ const Home = ({ carouselData }: HomeProps) => {
         Vamos nessa?<Text>Então escolha seu continente</Text>
       </Text>
 
-      <Box mx="100px">
+      <Box mx={['0px', '0px', '100px']}>
         <Carousel carouselData={carouselData} />
       </Box>
     </>
