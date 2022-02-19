@@ -29,6 +29,7 @@ interface ContinentProps {
     metadata: number[]
     plus100: string
     cities: City[]
+    imageUrl: string
   }
 }
 
@@ -38,7 +39,10 @@ export default function Continent({ data }: ContinentProps) {
   return (
     <>
       <Header isHome={false} />
-      <ShowcaseContinent continentName={data.continentName} />
+      <ShowcaseContinent
+        continentName={data.continentName}
+        continentImage={data.imageUrl}
+      />
 
       <Flex
         direction={['column', 'column', 'column', 'row']}
@@ -123,7 +127,6 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     `http://localhost:5000/continents?slug=${continent}`
   )
   const [data] = await response.json()
-  console.log(data)
   return {
     props: {
       data,

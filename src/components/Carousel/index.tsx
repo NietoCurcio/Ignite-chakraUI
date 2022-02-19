@@ -8,7 +8,17 @@ import 'swiper/css/navigation'
 import styles from './styles.module.css'
 import { CarouselItem } from './CarouselItem'
 
-export function Carousel() {
+interface ContinentsObject {
+  slug: string
+  description: string
+  continentName: string
+  imageUrl: string
+}
+interface CarouselProps {
+  carouselData: ContinentsObject[]
+}
+
+export function Carousel({ carouselData }: CarouselProps) {
   return (
     <Swiper
       slidesPerView={1}
@@ -23,54 +33,18 @@ export function Carousel() {
       modules={[Keyboard, Pagination, Navigation]}
       className={styles.swiper}
     >
-      <SwiperSlide>
-        <CarouselItem
-          img="/images/continents/europe.png"
-          title="Europa"
-          subtitle="O continente mais antigo"
-          to="/europe"
-        />
-      </SwiperSlide>
-      <SwiperSlide>
-        <CarouselItem
-          img="/images/continents/europe.png"
-          title="América do Norte"
-          subtitle=""
-          to="/north-america"
-        />
-      </SwiperSlide>
-      <SwiperSlide>
-        <CarouselItem
-          img="/images/continents/europe.png"
-          title="América do Sul"
-          subtitle=""
-          to="/south-america"
-        />
-      </SwiperSlide>
-      <SwiperSlide>
-        <CarouselItem
-          img="/images/continents/europe.png"
-          title="Oceania"
-          subtitle="O maior continente"
-          to="/south-america"
-        />
-      </SwiperSlide>
-      <SwiperSlide>
-        <CarouselItem
-          img="/images/continents/europe.png"
-          title="África"
-          subtitle="O maior continente"
-          to="/south-america"
-        />
-      </SwiperSlide>
-      <SwiperSlide>
-        <CarouselItem
-          img="/images/continents/europe.png"
-          title="Ásia"
-          subtitle="O maior continente"
-          to="/south-america"
-        />
-      </SwiperSlide>
+      {carouselData.map((item: ContinentsObject, idx: number) => {
+        return (
+          <SwiperSlide key={idx}>
+            <CarouselItem
+              img={item.imageUrl}
+              title={item.continentName}
+              subtitle={item.description}
+              to={`/${item.slug}`}
+            />
+          </SwiperSlide>
+        )
+      })}
     </Swiper>
   )
 }

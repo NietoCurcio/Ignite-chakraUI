@@ -19,6 +19,7 @@ export function CarouselItem({ img, title, subtitle, to }: CarouselItemProps) {
             width="inherit"
             h="inherit"
             backgroundRepeat="no-repeat"
+            backgroundSize="cover"
           >
             <VStack
               color="#fff"

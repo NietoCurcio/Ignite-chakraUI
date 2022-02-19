@@ -2,13 +2,17 @@ import { Box, Flex, Heading, Image, Stack, Text } from '@chakra-ui/react'
 
 interface ShowcaseContinentProps {
   continentName: string
+  continentImage: string
 }
 
-export function ShowcaseContinent({ continentName }: ShowcaseContinentProps) {
+export function ShowcaseContinent({
+  continentName,
+  continentImage,
+}: ShowcaseContinentProps) {
   return (
     <Box
       height={['150px', '150px', '500px']}
-      backgroundImage="url('/images/continents/europe.png')"
+      backgroundImage={`url('${continentImage}')`}
       backgroundRepeat="no-repeat"
       backgroundSize="cover"
     >

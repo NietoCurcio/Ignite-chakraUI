@@ -5,6 +5,7 @@
       "slug": "europe",
       "continentName": "Europa",
       "imageUrl": "/images/continents/europe.png",
+      "description": "O continente mais antigo",
       "text": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
       "metadata": [50, 60, 27],
       "plus100": "O selo +100 representa cidades perfeitas para viagem",
@@ -41,10 +42,137 @@
         }
       ]
     },
-    { "id": 2, "slug": "north-america", "continentName": "América do Norte" },
-    { "id": 3, "slug": "south-america", "continentName": "América do Sul" },
-    { "id": 4, "slug": "oceania", "continentName": "Oceania" },
-    { "id": 5, "slug": "africa", "continentName": "África" },
-    { "id": 6, "slug": "asia", "continentName": "Ásia" }
+    {
+      "id": 2,
+      "slug": "north-america",
+      "continentName": "América do Norte",
+      "imageUrl": "/images/continents/north_america.jpg",
+      "description": "O terceiro maior continenteNorth America, third largest of the world's continents",
+      "text": "É limitado a norte pelo Oceano Ártico, a leste pelo Oceano Atlântico, a sudeste pela América do Sul e pelo Mar do Caribe e a oeste e sul pelo Oceano Pacífico. Por estar na Placa Tectônica da América do Norte, a Groenlândia está incluída geograficamente como parte da América do Norte.",
+      "metadata": [50, 60, 27],
+      "plus100": "O selo +100 representa cidades perfeitas para viagem",
+      "cities": [
+        {
+          "cityName": "Londres",
+          "country": "Reino Unido",
+          "imageUrl": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+          "countryFlagUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/125px-Flag_of_the_United_Kingdom.svg.png"
+        },
+        {
+          "cityName": "Paris",
+          "country": "França",
+          "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGFyaXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+          "countryFlagUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/125px-Flag_of_France.svg.png"
+        },
+        {
+          "cityName": "Roma",
+          "country": "Itália",
+          "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cm9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+          "countryFlagUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/125px-Flag_of_Italy.svg.png"
+        },
+        {
+          "cityName": "Praga",
+          "country": "República Tcheca",
+          "imageUrl": "https://images.unsplash.com/20/cold-city.JPG?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=868&q=80",
+          "countryFlagUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/125px-Flag_of_the_Czech_Republic.svg.png"
+        },
+        {
+          "cityName": "Amsterdã",
+          "country": "Holanda",
+          "imageUrl": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YW1zdGVyZGFtfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+          "countryFlagUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/125px-Flag_of_the_Netherlands.svg.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "south-america",
+      "continentName": "América do sul",
+      "imageUrl": "/images/continents/south_america.png",
+      "description": "O continente da diversidade",
+      "text": "Mata atlantica",
+      "metadata": [50, 60, 27],
+      "plus100": "O selo +100 representa cidades perfeitas para viagem",
+      "cities": [
+        {
+          "cityName": "Londres",
+          "country": "Reino Unido",
+          "imageUrl": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+          "countryFlagUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/125px-Flag_of_the_United_Kingdom.svg.png"
+        },
+        {
+          "cityName": "Paris",
+          "country": "França",
+          "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGFyaXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+          "countryFlagUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/125px-Flag_of_France.svg.png"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "slug": "oceania",
+      "continentName": "Oceania",
+      "imageUrl": "/images/continents/oceania.png",
+      "description": "O continente dos cangurus",
+      "text": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+      "metadata": [50, 60, 27],
+      "plus100": "O selo +100 representa cidades perfeitas para viagem",
+      "cities": [
+        {
+          "cityName": "Londres",
+          "country": "Reino Unido",
+          "imageUrl": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+          "countryFlagUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/125px-Flag_of_the_United_Kingdom.svg.png"
+        },
+        {
+          "cityName": "Paris",
+          "country": "França",
+          "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGFyaXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+          "countryFlagUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/125px-Flag_of_France.svg.png"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "africa",
+      "continentName": "Europa",
+      "imageUrl": "/images/continents/europe.png",
+      "description": "O continente dos leões",
+      "text": "Na África são conservadas numerosas espécies de sua fauna: na floresta equatorial abrigam-se, de maneira principal, aves e macacos; nas savanas e estepes estão reunidos antílopes, zebras, girafas, leões, leopardos, elefantes, avestruzes e geralmente animais maiores.[19] A África possui o maior número de espécies de megafauna, pois foi o continente menos afetado pela extinção da megafauna do Pleistoceno (Era do Gelo)",
+      "metadata": [50, 60, 27],
+      "plus100": "O selo +100 representa cidades perfeitas para viagem",
+      "cities": [
+        {
+          "cityName": "Londres",
+          "country": "Reino Unido",
+          "imageUrl": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+          "countryFlagUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/125px-Flag_of_the_United_Kingdom.svg.png"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "slug": "asia",
+      "continentName": "Ásia",
+      "imageUrl": "/images/continents/asia.png",
+      "description": "O maior continente",
+      "text": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+      "metadata": [50, 60, 27],
+      "plus100": "O selo +100 representa cidades perfeitas para viagem",
+      "cities": [
+        {
+          "cityName": "Londres",
+          "country": "Reino Unido",
+          "imageUrl": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+          "countryFlagUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/125px-Flag_of_the_United_Kingdom.svg.png"
+        },
+        {
+          "cityName": "Paris",
+          "country": "França",
+          "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGFyaXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+          "countryFlagUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/125px-Flag_of_France.svg.png"
+        }
+      ]
+    }
   ]
 }
