@@ -25,7 +25,7 @@ export function Carousel() {
     >
       <SwiperSlide>
         <CarouselItem
-          img="/images/europe.png"
+          img="/images/continents/europe.png"
           title="Europa"
           subtitle="O continente mais antigo"
           to="/europe"
@@ -33,7 +33,7 @@ export function Carousel() {
       </SwiperSlide>
       <SwiperSlide>
         <CarouselItem
-          img="/images/europe.png"
+          img="/images/continents/europe.png"
           title="América do Norte"
           subtitle=""
           to="/north-america"
@@ -41,7 +41,7 @@ export function Carousel() {
       </SwiperSlide>
       <SwiperSlide>
         <CarouselItem
-          img="/images/europe.png"
+          img="/images/continents/europe.png"
           title="América do Sul"
           subtitle=""
           to="/south-america"
@@ -49,7 +49,7 @@ export function Carousel() {
       </SwiperSlide>
       <SwiperSlide>
         <CarouselItem
-          img="/images/europe.png"
+          img="/images/continents/europe.png"
           title="Oceania"
           subtitle="O maior continente"
           to="/south-america"
@@ -57,7 +57,7 @@ export function Carousel() {
       </SwiperSlide>
       <SwiperSlide>
         <CarouselItem
-          img="/images/europe.png"
+          img="/images/continents/europe.png"
           title="África"
           subtitle="O maior continente"
           to="/south-america"
@@ -65,7 +65,7 @@ export function Carousel() {
       </SwiperSlide>
       <SwiperSlide>
         <CarouselItem
-          img="/images/europe.png"
+          img="/images/continents/europe.png"
           title="Ásia"
           subtitle="O maior continente"
           to="/south-america"
