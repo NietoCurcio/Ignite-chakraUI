@@ -6,6 +6,8 @@
       "continentName": "Europa",
       "imageUrl": "/images/continents/europe.png",
       "text": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+      "metadata": [50, 60, 27],
+      "plus100": "O selo +100 representa cidades perfeitas para viagem",
       "cities": [
         {
           "cityName": "Londres",
@@ -22,19 +24,19 @@
         {
           "cityName": "Roma",
           "country": "Itália",
-          "imageUrl": "https://images.unsplash.com/photo-1537799943037-f5da89a65689?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHJvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+          "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cm9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
           "countryFlagUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/125px-Flag_of_Italy.svg.png"
         },
         {
           "cityName": "Praga",
           "country": "República Tcheca",
-          "imageUrl": "https://images.unsplash.com/photo-1563803858264-d5cd400f9fcf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHByYWd1ZSUyMGN6ZWNoJTIwcmVwdWJsaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+          "imageUrl": "https://images.unsplash.com/20/cold-city.JPG?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=868&q=80",
           "countryFlagUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/125px-Flag_of_the_Czech_Republic.svg.png"
         },
         {
           "cityName": "Amsterdã",
           "country": "Holanda",
-          "imageUrl": "https://images.unsplash.com/photo-1612399528106-1154a21a16bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
+          "imageUrl": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YW1zdGVyZGFtfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
           "countryFlagUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/125px-Flag_of_the_Netherlands.svg.png"
         }
       ]

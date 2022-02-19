@@ -14,7 +14,6 @@ import { CustomDivider } from '../components/CustomDivider'
 import { Carousel } from '../components/Carousel'
 
 const Home: NextPage = () => {
-  useMediaQuery
   const isSmall = useBreakpointValue({ base: true, lg: false })
 
   // in order to make useBreakpointValue works with Next.js,
